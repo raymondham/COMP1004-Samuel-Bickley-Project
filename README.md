@@ -2,7 +2,7 @@
 Project Name: CloudVault - A Personal Cloud File Manager (client side SPA) 
 Focus: Software Engineering & Cloud Engineering 
 
-Stand up meeting leader = Dr Vasilios Kelefouras
+Stand up meeting leader = Muhammad Asad
 
 
 Project Vision 
