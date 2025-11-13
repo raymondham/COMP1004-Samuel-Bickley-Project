@@ -64,7 +64,15 @@ Risks and Mitigations
 1.
 2.
 
+
+
 Fill out project initiation section on Eportfolio
+
+
+
+
+CREATE WATERFALL TO SHOW YOUR PLAN OF PROJECT and upload on eportfolio Upload a document that outlines how your project will develop over the course of the year. Use the waterfall model to illustrate your planned activities for each sprint.
+
 
 
 Install VS code, use node.js if you plan to modularize your javascript, include bootstrap for ui styling, initialize a github repositoroy for version control - name it COMP1004_CloudVault_SamuelBickley
@@ -100,6 +108,8 @@ Sprint 5: Polish UI, test for edge cases, write UML diagrams, prepare ePortfolio
 
 Create a backlog in a planner (e.g., Microsoft Planner or Trello) to track tasks.
 
+
+
 4.
 HTML: File upload interface, table/grid for files.
 
@@ -115,7 +125,9 @@ Track time/metadata for each file.
 
 Keep the prototype moderately complex, enough to show progress in your mid-project video.
 
-5.
+
+
+5. Overall Plan 
 Start your ePortfolio immediately. Include:
 
 Project Initiation (title, vision, scope, requirements)
@@ -126,7 +138,9 @@ Risks & mitigation
 
 Every code iteration → commit to GitHub and include comments.
 
-6.
+
+
+6. VIDEO
 Prepare a 5-minute video showing:
 
 Project vision & background
@@ -138,6 +152,7 @@ UML diagrams (start with basic class or flow diagrams)
 Working prototype demonstration
 
 Challenges/issues faced
+
 
 Write a 250-word CPD reflection on how any learning (like tutorials, sessions, or online resources) influenced your project approach.
 
