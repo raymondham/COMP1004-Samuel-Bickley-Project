@@ -4,7 +4,6 @@ Focus: Software Engineering & Cloud Engineering
 
 Stand up meeting leader = Muhammad Asad
 
-
 Project Vision 
 
 CloudVault is a single page application (SPA) that allows users to upload, organize, and manage personal files using a browser-based interface. Users can group files into categories, assign tags, and view synchronisation logs that indicate when files were last added or used.
@@ -14,20 +13,16 @@ Following the modular software enginering principles, CloudVault will handle UI,
 
 
 Project Scope (250 words) 
-Cloud Vault is a SPA personal file management system that allows for the storage, modification and uploading of files on a browser interface, and immitates elements of a usual cloud storage platform, without needing a backend server. Cloud Vault stores metadata locally in the users browser by utlizing JSON and localStorage API instead of relying on external server side applications and data.
 
-The target audience for Cloud Vault are mainly students, freelancers and users who are in need of storing data locally using simple, effective organization without interent connections or cloud softwares. The audience of Cloud Vault may want to use this software if they want to store small files like notes and coursework, or they may want to use it for the privacy advancments as the users data is stored locally on their browser. Cloudvault may also be advantagous to those without stable internet connection as the software may be used offline.
+Cloud Vault is a SPA personal file management system that allows for the storage, modification and uploading of files on a browser interface, and imitates elements of a usual cloud storage platform, without a backend server. Cloud Vault stores metadata locally in the users browser with JSON and local Storage API instead of relying on external server side applications.
 
-Users may want to use CloudVault as opposed to other existing solutions as it offers more flexibility due to CloudVault not neesing internet, aswell as not needing the user to create an account. This is an attractive feature, especially when it comes to data storage, as users may worry about issues like data breaches (when stored online), and websites taking data like emails, passwords and personal information when asked to create an account.
-   
-Cloud Vault is also an advantage over cloud softwares as it doesnt have overcomplicated UI's or complex menus - Cloud Vault only provides users with must have features and simple optional features like uploads, catergorizing, tags and searching - no other overwhelming features will be displayed.
+The target audience for Cloud Vault are mainly students, freelancers and users who are in need of simply storing data locally without internet connections or cloud software's.  This software may be used to store small files like notes and coursework, or for the privacy advancements it offers as the users data is stored locally on their browser. 
 
-Cloud Vault will use visualizations to display data. Due to CloudVault only storing metadata, things like number of files per category, number of files per tag,, upload activity over time and file types stored can be displayed as they dont require a backend and are genreated using Vanilla JS + Canvas. Cloud Vault will aslo feature optional dashboard views to visualize this stored metadata to provide insight into how the user can organise information. The visualisation will be generated dynamically from local JSON data.
+Compared to existing software's, Cloud Vault offers superior flexibility and privacy, as the software does not require internet nor needs the user to create an account, which is beneficial as users may worry about issues like data breaches (when stored online), and websites taking personal data when asked to create an account.
 
-Technolgies used in CloudVault will include; UI/ Front end ( HTML5, CSS3 and JavaScript), Modular Javascript files for filemanager and storageservice, local storage API that is built into the browser, JSON (data formatting) and chart.js for visuals.
- 
-393 words!!!!
-  
+Unlike other cloud software's, this system does not use overcomplicated UI's or menus and only provides users with must have features and simple optional components like uploads, categorizing, tags and searching. No other overwhelming features will be displayed.
+Cloud Vault will visualize metadata such as 'number of files per category/ tag', 'upload activity' and 'stored file types', this data does not require a backend so, using Vanilla JS and Canvas, this can be generated and displayed. It will also feature optional dashboard views to visualize stored metadata to better organise the users files. The visualisation will be generated dynamically from local JSON data.
+Technologies used in Cloud Vault will include; UI/ Front end ( HTML5, CSS3 and JavaScript), Modular JavaScript files for file manager and storage service, local storage API that is built into the browser, JSON (data formatting) and chart.js for visuals.
 
 
 
@@ -66,19 +61,47 @@ Risks and Mitigations
 
 
 
-Fill out project initiation section on Eportfolio
-
-
-
 
 CREATE WATERFALL TO SHOW YOUR PLAN OF PROJECT and upload on eportfolio Upload a document that outlines how your project will develop over the course of the year. Use the waterfall model to illustrate your planned activities for each sprint.
 
+                                          PhaseDuration	   Start	        End  
+Requirements Analysis	                        3 weeks	   Oct 1         Oct 21
+System Design	                                 3 weeks	   Oct 22	     Nov 10
+Implementation	                                 6 weeks	   Nov 11	     Dec 22
+Testing	                                       3 weeks	   Jan 5	        Jan 26
+Deployment	                                    1 week	   Jan 27	     Feb 2
+Reflection & Report	                           2 weeks   	Feb 3	        Feb 17
 
 
 Install VS code, use node.js if you plan to modularize your javascript, include bootstrap for ui styling, initialize a github repositoroy for version control - name it COMP1004_CloudVault_SamuelBickley
 
 
 
+System Design (3 weeks – Oct 22 to Nov 10)
+🎯 Objectives
+Translate requirements into a technical blueprint.
+Define the system’s architecture, database, and user interface.
+Ensure design supports scalability and security.
+
+🧩 Tasks
+Choose your tech stack (HTML, CSS, JavaScript, Node.js, Express.js, MongoDB/Firebase).
+Design the system architecture diagram (client-server-cloud).
+Create the Entity-Relationship Diagram (ERD) for your database.
+Make wireframes or mockups for the front-end (login, dashboard, upload page).
+Plan APIs (endpoints for user authentication, file upload/download).
+Define security approach (JWT authentication, HTTPS, validation).
+
+📦 Deliverables
+System Design Document (SDD)
+Architecture Diagram
+UML Class & Sequence Diagrams
+ERD (Database Schema)
+Wireframes/UI Mockups
+API Documentation (OpenAPI or table format)
+
+📝 Notes
+Design is a major assessment point — it shows planning before coding.
+Include visuals (draw.io, Lucidchart, or Figma screenshots) to strengthen your ePortfolio.
 
 
 
@@ -89,10 +112,7 @@ Install VS code, use node.js if you plan to modularize your javascript, include 
 
 
 
-WHATS LEFT TO BE DONE 
-
-
-Nov/Dec
+Nov 11th to Dec 22nd 
 3.
 Break your project into sprints, each with achievable goals:
 
