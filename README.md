@@ -2,7 +2,7 @@
 Project Name: CloudVault - A Personal Cloud File Manager (client side SPA) 
 Focus: Software Engineering & Cloud Engineering 
 
-Stand up meeting leader = Muhammad Asad
+Stand up meeting leader = Lauren Ansell
 
 Project Vision 
 
@@ -12,7 +12,7 @@ Cloud Vault aims to replicate popular Cloud file managers such as OneDrive, but 
 Following the modular software enginering principles, CloudVault will handle UI, file data logic and local storage using various elements.
 
 
-Project Scope (250 words) 
+Project Scope (250 words) - 311 words
 
 Cloud Vault is a SPA personal file management system that allows for the storage, modification and uploading of files on a browser interface, and imitates elements of a usual cloud storage platform, without a backend server. Cloud Vault stores metadata locally in the users browser with JSON and local Storage API instead of relying on external server side applications.
 
@@ -24,10 +24,72 @@ Unlike other cloud software's, this system does not use overcomplicated UI's or 
 Cloud Vault will visualize metadata such as 'number of files per category/ tag', 'upload activity' and 'stored file types', this data does not require a backend so, using Vanilla JS and Canvas, this can be generated and displayed. It will also feature optional dashboard views to visualize stored metadata to better organise the users files. The visualisation will be generated dynamically from local JSON data.
 Technologies used in Cloud Vault will include; UI/ Front end ( HTML5, CSS3 and JavaScript), Modular JavaScript files for file manager and storage service, local storage API that is built into the browser, JSON (data formatting) and chart.js for visuals.
 
+Functional Requiremnts
+1. User must be able to upload files, with each file's metadata stored in JSON format.
+2. User must be able to create, edit and assign catergories and tages to these files.
+3. System must display a searchable and filterable list of stored files.
+4. System must persist all data using browser localStorage, even after the browser is closed.
+Non Functional Requirments
+1. Application must use a modular architecture with separation between UI, Logic, and storage.
+2. Interface must be easy to navigate and be well responsive.
+CHECK FOR PLAGIRISM!!!!
+
+Risks and Mitigations (EXPAND AND REFINE)
+1. Limited file sizes due to storage limits of certain browsers.
+2. Losing data when browser is refreshed.
+
+
+Waterfall Plan  (EDIT THIS, REFINE)
+                         PhaseDuration	 Start	  End  
+Requirements Analysis	       3 weeks	   Oct 1     Oct 21
+System Design	               3 weeks	   Oct 22	   Nov 10
+Implementation	             6 weeks	   Nov 11	   Dec 31
+Testing	                     3 weeks	   Jan 1	   Jan 26
+Deployment	                 1 week	     Jan 27	   Feb 2
+Reflection & Report	         2 weeks     Feb 3	   Feb 17
+
+Requirement Analysis - Functional and non functional requirements established.
+System Design - UI design, UML diagrams, 
+Implementation - Using HTML/CSS/JS to produce the SPA. HTML, CSS - Design, JS - logic, localStorage or indexedDB - metadata
+Testing - Manually testing the SPA with file uploads and deletion.
+Deployment - Local Browser Deployed.
+Reflection and Report - Improvements and addressed issues.
 
 
 
 
+
+
+
+
+
+UML diagrams
+-
+
+Initial working prototype
+-
+
+Mid project review video 
+-
+
+Professional Development reflection on pebble
+-
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROJECT PLAN PROGRESSION BELOW
+
+
+
+
+THIS IS DONE!!!!! 
 1 What problem are you solving with CloudBox?
 2 Who is your target user (students, professionals, general public)?
 3. Why would they use your application instead of existing solutions?
@@ -39,49 +101,27 @@ Technologies used in Cloud Vault will include; UI/ Front end ( HTML5, CSS3 and J
 9.Will your app be a Single Page Application (SPA)? DONE
 10.How will your project help users manage their time or files more effectively? DONE
 
-11.What’s the main outcome you want someone to achieve after using it?
-12.What could go wrong technically? (e.g., JSON errors, UI issues)
-13.Are there user experience risks? (e.g., hard to navigate, confusing interface)
-
-
-
-Functional Requiremnts
-1. User must be able to upload files, with each file's metadata stored in JSON format.
-2. User must be able to create, edit and assign catergories and tages to these files.
-3. System must display a searchable and filterable list of stored files.
-4. System must persist all data using browser localStorage, even after the browser is closed.
-Non Functional Requirments
-1. Application must use a modular architecture with separation between UI, Logic, and storage.
-2. Interface must be easy to navigate and be well responsive.
-CHECK FOR PLAGIRISM!!!!
-
-Risks and Mitigations 
-1.
-2.
+NEEDS TO BE DONE BELOW;
 
 
 
 
-CREATE WATERFALL TO SHOW YOUR PLAN OF PROJECT and upload on eportfolio Upload a document that outlines how your project will develop over the course of the year. Use the waterfall model to illustrate your planned activities for each sprint.
-
-                                          PhaseDuration	   Start	        End  
-Requirements Analysis	                        3 weeks	   Oct 1         Oct 21
-System Design	                                 3 weeks	   Oct 22	     Nov 10
-Implementation	                                 6 weeks	   Nov 11	     Dec 22
-Testing	                                       3 weeks	   Jan 5	        Jan 26
-Deployment	                                    1 week	   Jan 27	     Feb 2
-Reflection & Report	                           2 weeks   	Feb 3	        Feb 17
+                               
 
 
 Install VS code, use node.js if you plan to modularize your javascript, include bootstrap for ui styling, initialize a github repositoroy for version control - name it COMP1004_CloudVault_SamuelBickley
 
 
+NEEDS TO BE DONE 
 
-System Design (3 weeks – Oct 22 to Nov 10)
-🎯 Objectives
-Translate requirements into a technical blueprint.
-Define the system’s architecture, database, and user interface.
-Ensure design supports scalability and security.
+
+
+12.What could go wrong technically? (e.g., JSON errors, UI issues)
+13.Are there user experience risks? (e.g., hard to navigate, confusing interface)
+
+
+
+
 
 🧩 Tasks
 Choose your tech stack (HTML, CSS, JavaScript, Node.js, Express.js, MongoDB/Firebase).
@@ -111,6 +151,7 @@ Include visuals (draw.io, Lucidchart, or Figma screenshots) to strengthen your e
 
 
 
+PLAN FOR PROJECT
 
 Nov 11th to Dec 22nd 
 3.
@@ -146,17 +187,6 @@ Track time/metadata for each file.
 Keep the prototype moderately complex, enough to show progress in your mid-project video.
 
 
-
-5. Overall Plan 
-Start your ePortfolio immediately. Include:
-
-Project Initiation (title, vision, scope, requirements)
-
-Project Plan (sprints/backlog)
-
-Risks & mitigation
-
-Every code iteration → commit to GitHub and include comments.
 
 
 
