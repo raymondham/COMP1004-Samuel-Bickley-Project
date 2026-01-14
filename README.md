@@ -42,14 +42,13 @@ Risks and Mitigations
 2. Losing data when browser is refreshed.
 
 
-Waterfall Plan  (EDIT THIS, REFINE)
-                         PhaseDuration	 Start	  End  
-Requirements Analysis	       3 weeks	   Oct 1     Oct 21
-System Design	               3 weeks	   Oct 22	   Nov 10
-Implementation	             6 weeks	   Nov 11	   Dec 31
-Testing	                     3 weeks	   Jan 1	   Jan 26
-Deployment	                 1 week	     Jan 27	   Feb 2
-Reflection & Report	         2 weeks     Feb 3	   Feb 17
+Waterfall Plan  
+                         Timeframe (Weeks)
+Requirements Analysis	       1-2
+System Design	               3-4
+Implementation	             5-8
+Testing	                     9-10
+Reflection & Report	         11-12  
 
 Requirement Analysis - Functional and non functional requirements established.
 System Design - UI design, UML diagrams, 
