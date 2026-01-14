@@ -14,15 +14,18 @@ Following the modular software enginering principles, CloudVault will handle UI,
 
 Project Scope (250 words) - 311 words
 
-Cloud Vault is a SPA personal file management system that allows for the storage, modification and uploading of files on a browser interface, and imitates elements of a usual cloud storage platform, without a backend server. Cloud Vault stores metadata locally in the users browser with JSON and local Storage API instead of relying on external server side applications.
+Cloud Vault is an SPA personal file management system that allows for storage, modification and uploading of files on a local browser interface without a backend server and stores metadata locally with JSON and local Storage API instead of external server side applications.
 
-The target audience for Cloud Vault are mainly students, freelancers and users who are in need of simply storing data locally without internet connections or cloud software's.  This software may be used to store small files like notes and coursework, or for the privacy advancements it offers as the users data is stored locally on their browser. 
+The target audience for Cloud Vault are mainly freelancers and users who are need to store data locally without internet connections.  This software may be used to store small files like notes, or for the privacy advancements it offers as the users data is stored personally on their browser.
 
-Compared to existing software's, Cloud Vault offers superior flexibility and privacy, as the software does not require internet nor needs the user to create an account, which is beneficial as users may worry about issues like data breaches (when stored online), and websites taking personal data when asked to create an account.
+Compared to existing software's, Cloud Vault offers superior flexibility and privacy, as the software does not require internet nor needs the user to create an account, which is beneficial as users may worry about data breaches (when stored online), and websites taking personal data when asked to create an account.
 
-Unlike other cloud software's, this system does not use overcomplicated UI's or menus and only provides users with must have features and simple optional components like uploads, categorizing, tags and searching. No other overwhelming features will be displayed.
-Cloud Vault will visualize metadata such as 'number of files per category/ tag', 'upload activity' and 'stored file types', this data does not require a backend so, using Vanilla JS and Canvas, this can be generated and displayed. It will also feature optional dashboard views to visualize stored metadata to better organise the users files. The visualisation will be generated dynamically from local JSON data.
-Technologies used in Cloud Vault will include; UI/ Front end ( HTML5, CSS3 and JavaScript), Modular JavaScript files for file manager and storage service, local storage API that is built into the browser, JSON (data formatting) and chart.js for visuals.
+Unlike other cloud software's, this system does not use overcomplicated UI's and only provides users with must have features and simple optional components like uploads, categorizing, tags and searching. No other overwhelming features are displayed.
+
+Cloud Vault visualizes metadata like;  'number of files per category/ tag', 'upload activity' and 'stored file types', this data does not require a backend so, using Vanilla JS, this can be generated and displayed. It will also feature optional dashboard views to visualize stored metadata to better organise the users files. The visualisation will be generated dynamically from local JSON data.
+
+Technologies used in Cloud Vault will include; UI/ Front end ( HTML5, CSS3 and JavaScript), Modular JavaScript files for file manager and local storage API that is built into the browser, as well as JSON for visuals.
+
 
 Functional Requiremnts
 1. User must be able to upload files, with each file's metadata stored in JSON format.
@@ -32,9 +35,9 @@ Functional Requiremnts
 Non Functional Requirments
 1. Application must use a modular architecture with separation between UI, Logic, and storage.
 2. Interface must be easy to navigate and be well responsive.
-CHECK FOR PLAGIRISM!!!!
 
-Risks and Mitigations (EXPAND AND REFINE)
+
+Risks and Mitigations 
 1. Limited file sizes due to storage limits of certain browsers.
 2. Losing data when browser is refreshed.
 
