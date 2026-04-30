@@ -27,15 +27,25 @@ Technologies used in Cloud Vault will include;
 Drag and Drop API
 
 
-Functional Requirements
-1. User must be able to upload files, with each file's metadata stored in JSON format.
-2. User must be able to create, edit and assign categories and tags to these files.
-3. System must display a searchable and filterable list of stored files.
-4. System must persist all data using browser localStorage.
-   
-Non Functional Requirments
-1. Application must use a modular architecture with separation between UI, Logic, and storage.
-2. Interface must be easy to navigate and be well responsive.
+Functional requirements;
+ Upload files via button click, drag, and drop
+ Persistent file storage
+ Rename, edit, delete and search files by categories
+ Create and manage folders
+ Image previews
+ Storage Usage display
+ Grid and list view
+
+Non-functional requirements;
+ application loads and responds to actions within 2 seconds
+ client side – no server
+ Modern browser compatibility
+ persistent storage
+ Storage limit 5-10MB
+ Clear error messages
+ modular codebase
+ No external installations needed
+
 
 
 Risk                                                Impact                                                 Solution  
