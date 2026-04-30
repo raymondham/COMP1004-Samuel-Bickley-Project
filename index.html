@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>CloudVault - Local File Manager</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    
+    <div class="container">
+
+        <header>
+        <div class="header-left">
+            <h1>CloudVault</h1>
+            <p class="tagline">Your Local File Manager</p>
+        </div>
+        <div class="storage-display">
+            <span id="storageText">Storage Used: 0 MB </span>
+            </div>
+            </header>
+
+        <div class="main-wrapper">
+
+        <aside class="sidebar">
+            <p class="sidebar-title">Browse</p>
+
+
+            <button class="nav-btn active" data-filter="all" onclick="filterFiles('all')">All Files</button>
+            <button class="nav-btn" data-filter="image" onclick="filterFiles('image')">Images</button>
+            <button class="nav-btn" data-filter="video" onclick="filterFiles('video')">Videos</button>
+            <button class="nav-btn" data-filter="audio" onclick="filterFiles('audio')">Audio</button>
+            <button class="nav-btn" data-filter="document" onclick="filterFiles('document')">Documents</button>
+            <button class="nav-btn" data-filter="other" onclick="filterFiles('other')">Other</button>
+
+            <div class="divider"></div>
+
+           <p class="sidebar-title">Folders</p>
+            <div id="folderList"></div>
+
+        </aside>
+
+
+        <main class="content-area">
+
+<!---Toolbar---->
+            <div class="toolbar">
+                <div class="toolbar-left">
+            <button class="toolbar-btn" id="uploadBtn">Upload</button>        
+            <button class="toolbar-btn" id="newFolderBtn">New Folder</button>
+            </div>
+            <div class="toolbar-right">
+            <button class="toolbar-btn" id="gridViewBtn">Grid View</button>
+            <button class="toolbar-btn" id="listViewBtn">List View</button>
+            <input type="text" id="searchBox" class="form-control form control-sm" placeholder="Search files..." style="max-width: 200px;">
+
+               </div>
+            </div>
+
+            <input type="file" id="fileInput" multiple style="display: none;">
+
+            <div id="dropArea" class="upload-zone">
+                <div class="upload-icon">📁</div>
+                    <p>Click or drag files here to upload</p>
+                    <p class="upload-sub">Any file type, up to 5 GB</p>
+            </div>
+
+            <div id="fileDisplay" class="file-grid"></div>
+
+            </main>
+    </div>
+</div>
+
+
+<div id="folderModal" class="modal">
+    <div class="modal-box">
+        <div class="modal-header">
+            <h3>Create New Folder</h3>
+            </div>
+            <div class="modal-body">
+            <label>Folder Name:</label>
+                <input type="text" id="folderNameInput" placeholder="Enter folder name">
+                </div>
+                <div class="modal-footer">
+                    <button class="modal-btn" id="cancelFolderBtn">Cancel</button>
+                    <button class="modal-btn" id="createFolderBtn">Create</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fileModal" class="modal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="fileModalTitle">File Details</h3>
+
+            </div>
+            <div class="modal-body"></div>
+                <p><strong>Name:</strong> <span id="fileModalName"></span></p>
+                <p><strong>Type:</strong> <span id="fileModalType"></span></p>
+                <p><strong>Size:</strong> <span id="fileModalSize"></span></p>
+                <p><strong>Created:</strong> <span id="fileModalDate"></span></p>
+                <div class="divider"></div>
+
+                <label>Assign to Folder</label>
+                <select id="fileModalFolder">
+                    <option value="">Select a folder</option>
+                </select>
+
+                <label>Category</label>
+                <input type="text" id="fileModalCategory" placeholder="Work, Personal, etc.">
+
+                <label style="margin-top: 10px; display: block;">Tags</label>
+                <input type="text" id="fileModalTags" placeholder="Comma-separated tags">
+                </div>
+
+                <div class="modal-footer">
+                    <button class="modal-btn" id="cancelFileBtn">Close</button>
+                    <button class="modal-btn danger" id="deleteFileBtn">Delete</button>
+                    <button class="modal-btn primary" id="saveFileBtn">Save</button>
+                </div>
+        </div>
+    </div>
+
+<script src="storageservice.js"></script>
+<script src="fileManager.js"></script>          
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+        
